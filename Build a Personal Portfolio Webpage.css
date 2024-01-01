@@ -1,0 +1,58 @@
+/* Add your CSS styles here */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#welcome-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#projects {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-tile {
+    text-align: center;
+}
+
+.project-tile a {
+    display: block;
+    margin-top: 1rem;
+    color: #333;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    #navbar {
+        flex-direction: column;
+    }
+}
